@@ -539,6 +539,7 @@ body {
   .header {
     position: relative;
     flex-direction: column;
+    height: auto;
   }
   .header nav {
     width: 90%;
@@ -562,8 +563,11 @@ body {
   .header__bxlogo {
     margin: 12px auto 0 auto;
   }
+  .main {
+    height: auto;
+  }
   .main .info {
-    margin-top: 30%;
+    margin-top: 10%;
   }
   .main .info__buttons {
     width: 100%;

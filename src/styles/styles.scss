@@ -400,6 +400,7 @@ width: 410px;
     .header {
         position: relative;
         flex-direction: column;
+        height: auto;
         & nav {
             width: 90%;
             & ul {
@@ -424,8 +425,9 @@ width: 410px;
         }
     }
     .main {
+        height: auto;
         & .info {
-            margin-top: 30%;
+            margin-top: 10%;
             &__buttons {
                 width: 100%;
                 flex-direction: column;
