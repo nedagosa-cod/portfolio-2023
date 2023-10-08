@@ -535,4 +535,98 @@ body {
   border-bottom: 2px solid #3deb2b;
 }
 
+@media only screen and (max-width: 460px) {
+  .header {
+    position: relative;
+    flex-direction: column;
+  }
+  .header nav {
+    width: 90%;
+  }
+  .header nav ul {
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 16px auto;
+  }
+  .header nav ul li {
+    margin: 8px auto;
+  }
+  .header nav ul li:last-child {
+    margin: 12px auto;
+    width: 100%;
+  }
+  .header nav ul li:last-child a {
+    margin: auto;
+    padding: 6px;
+  }
+  .header__bxlogo {
+    margin: 12px auto 0 auto;
+  }
+  .main .info {
+    margin-top: 30%;
+  }
+  .main .info__buttons {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main .info h3 {
+    width: 90%;
+    margin: auto;
+  }
+  .about {
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .about .bio {
+    width: 100%;
+  }
+  .about .bio p {
+    width: 90%;
+    margin: auto;
+  }
+  .about .bx-modelviwer {
+    display: none;
+  }
+  .skills {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50%;
+  }
+  .skills__aside {
+    height: auto;
+    width: auto;
+  }
+  .skills__aside h1 {
+    writing-mode: horizontal-tb;
+    -webkit-writing-mode: horizontal-tb;
+    -ms-writing-mode: horizontal-tb;
+  }
+  .skills__skills {
+    margin: 0 auto;
+    width: 86%;
+  }
+  .jobs .jobs-bx {
+    justify-content: center;
+    margin: 0;
+  }
+  .jobs .jobs-bx h2 {
+    text-align: center;
+  }
+  .jobs .jobs-bx:nth-child(2) {
+    justify-content: center;
+    margin: 0;
+  }
+  .jobs .jobs-bx:nth-child(2) h2 {
+    text-align: center;
+  }
+  .footer__media .line {
+    width: 156px;
+  }
+  .media {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */

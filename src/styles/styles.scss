@@ -394,3 +394,106 @@ width: 410px;
         }
     }
 }
+
+
+@media only screen and (max-width: 460px) {
+    .header {
+        position: relative;
+        flex-direction: column;
+        & nav {
+            width: 90%;
+            & ul {
+                text-align: center;
+                flex-wrap: wrap;
+                margin: 16px auto;
+                & li {
+                    margin: 8px auto;
+                    &:last-child {
+                        margin: 12px auto;
+                        width: 100%;
+                        & a {
+                            margin: auto;
+                            padding: 6px;
+                        }
+                    }
+                }
+            }
+        }
+        &__bxlogo {
+            margin: 12px auto 0 auto;
+        }
+    }
+    .main {
+        & .info {
+            margin-top: 30%;
+            &__buttons {
+                width: 100%;
+                flex-direction: column;
+                align-items: center;
+            }
+            & h3 {
+                width: 90%;
+                margin: auto;
+            }
+        }
+    }
+    .about {
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+        & .bio {
+            width: 100%;
+            & p {
+                width: 90%;
+                margin: auto;
+            }
+        }
+        & .bx-modelviwer {
+            display: none;
+        }
+    }
+    .skills {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 50%;
+        &__aside {
+            height: auto;
+            width: auto;
+            & h1 {
+                writing-mode:horizontal-tb;
+                -webkit-writing-mode:horizontal-tb;
+                -ms-writing-mode:horizontal-tb;
+            }
+        }
+        &__skills {
+            margin: 0 auto;
+            width: 86%;
+        }
+    }
+    .jobs {
+        & .jobs-bx {
+            justify-content: center;
+            margin: 0;
+            & h2 {
+                text-align: center;
+            }
+            &:nth-child(2) {
+                justify-content: center;
+                margin: 0;
+                & h2 {
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .footer {
+        &__media {
+            & .line {
+                width: 156px;
+            }
+        }
+    }
+    .media {
+        display: none;
+    }
+}
