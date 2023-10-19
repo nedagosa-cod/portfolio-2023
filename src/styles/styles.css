@@ -535,6 +535,52 @@ body {
   border-bottom: 2px solid #3deb2b;
 }
 
+@media only screen and (max-width: 1024px) {
+  .header nav {
+    width: 90%;
+  }
+  .main .info h3 {
+    width: 25ch;
+  }
+  .about {
+    height: auto;
+    padding: 0 20px 0 150px;
+    gap: 30px;
+  }
+  .skills {
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding-right: 20px;
+    margin-top: 20%;
+  }
+  .skills__aside {
+    height: auto;
+    width: auto;
+  }
+  .skills__aside h1 {
+    writing-mode: horizontal-tb;
+    -webkit-writing-mode: horizontal-tb;
+    -ms-writing-mode: horizontal-tb;
+  }
+  .skills__skills {
+    width: 84%;
+  }
+  .jobs .jobs-bx {
+    justify-content: center;
+    margin: 0;
+  }
+  .jobs .jobs-bx h2 {
+    text-align: center;
+  }
+  .jobs .jobs-bx:nth-child(2) {
+    justify-content: center;
+    margin: 0;
+  }
+  .jobs .jobs-bx:nth-child(2) h2 {
+    text-align: center;
+  }
+}
 @media only screen and (max-width: 460px) {
   .header {
     position: relative;
